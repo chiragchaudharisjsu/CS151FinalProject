@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UkeTabs</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">UkeTabs</string>
+    <string name="nav_header_subtitle">Ukulele tabs for the soul</string>
+    <string name="action_settings">Settings</string>
+    <string name="pattern_header">The most useful strumming patterns you can use to play thousands of different songs on your uke.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

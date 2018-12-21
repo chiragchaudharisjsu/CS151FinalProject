@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/resources">
+        <item android:title="Resources">
+            <menu>
+                <item
+                    android:id="@+id/nav_strings"
+                    android:title="Strings"
+                    android:icon="@drawable/string_icon" />
+                <item
+                    android:id="@+id/nav_chords"
+                    android:title="Chords"
+                    android:icon="@drawable/chord_icon" />
+                <item
+                    android:id="@+id/nav_strumming_patterns"
+                    android:title="Strumming patterns"
+                    android:icon="@drawable/pick_icon" />
+                <item
+                    android:id="@+id/nav_top_tabs"
+                    android:title="Top tabs"
+                    android:icon="@drawable/web_icon" />
+                <item
+                    android:id="@+id/nav_favorite_tabs"
+                    android:title="Favorite tabs"
+                    android:icon="@drawable/favorite_icon" />
+            </menu>
+        </item>
+    </group>
+
+    <group
+        android:id="@+id/other">
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Settings"
+            android:icon="@drawable/settings_icon" />
+        <item
+            android:id="@+id/nav_help_and_feedback"
+            android:title="Help and feedback"
+            android:icon="@drawable/help_icon" />
+    </group>
+</menu>
